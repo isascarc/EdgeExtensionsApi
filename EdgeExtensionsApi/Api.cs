@@ -1,5 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
-using System.Text.Json.Nodes;
+﻿using System.Text.Json.Nodes;
 
 namespace EdgeExtensionsApi;
 
@@ -15,20 +14,19 @@ public static class Extensions
 
     public async static Task<JsonNode> GetExtensionDetail(string crxId)
     {
+        ArgumentException.ThrowIfNullOrEmpty(crxId);
         return await GetData($"{getExtensionDetailUrl}/{crxId}");
     }
 
     public async static Task<JsonNode> GetSuggestions(string query)
     {
         ArgumentException.ThrowIfNullOrEmpty(query);
-
         return await GetData($"{getSuggestionsUrl}&q={query}");
     }
 
     public async static Task<JsonNode> Search(string query)
     {
         ArgumentException.ThrowIfNullOrEmpty(query);
-
         return await GetData($"{searchUrl}&Query={query}");
     }
 
