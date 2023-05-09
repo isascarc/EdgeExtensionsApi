@@ -9,4 +9,4 @@ var searchResults = await Extensions.Search("pdf");
 var extensionDetail = await Extensions.GetExtensionDetail("eeagobfjdenkkddmbclomhiblgggliao");
 ```
 
-- [ ] Note: All functions do not accept null values ​​or an empty string, in which case an error will simply be returned.
+> Note: All functions do not accept null values ​​or an empty string, in which case an error will simply be returned.

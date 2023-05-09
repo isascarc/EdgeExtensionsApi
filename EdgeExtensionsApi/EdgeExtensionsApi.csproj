@@ -4,6 +4,22 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <FileVersion>1.2</FileVersion>
+    <AssemblyVersion>1.2</AssemblyVersion>
+    <Version>1.2</Version>
+    <PackageTags>edge; extension; add-ons</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Isascar chatav</Authors>
+    <Description>API Not official for edge extensions.</Description>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/isascarc/EdgeExtensionsApi</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
