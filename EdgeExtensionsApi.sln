@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdgeExtensionsApi", "EdgeExtensionsApi\EdgeExtensionsApi.csproj", "{94A73B85-2568-45E1-B13D-7C4706F97EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi", "TestApi\TestApi.csproj", "{02267B9A-D32A-499B-AEDE-182073AB9F7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94A73B85-2568-45E1-B13D-7C4706F97EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A73B85-2568-45E1-B13D-7C4706F97EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A73B85-2568-45E1-B13D-7C4706F97EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A73B85-2568-45E1-B13D-7C4706F97EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02267B9A-D32A-499B-AEDE-182073AB9F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02267B9A-D32A-499B-AEDE-182073AB9F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02267B9A-D32A-499B-AEDE-182073AB9F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02267B9A-D32A-499B-AEDE-182073AB9F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8F12462-6806-4C2F-872F-CA0150EDDE61}
+	EndGlobalSection
+EndGlobal
