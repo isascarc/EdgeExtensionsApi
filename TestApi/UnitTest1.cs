@@ -15,7 +15,7 @@ public class Tests
     public void Test1()
     {
         Assert.ThrowsAsync<ArgumentNullException>(() => Extensions.GetExtensionDetail(null));
-        Assert.ThrowsAsync<ArgumentException>(() => Extensions.GetExtensionDetail(""))
+        Assert.ThrowsAsync<ArgumentException>(() => Extensions.GetExtensionDetail(""));
 
         var t = Extensions.GetExtensionDetail(CrxId1).Result;
         Assert.That(t, Is.Not.Null);
