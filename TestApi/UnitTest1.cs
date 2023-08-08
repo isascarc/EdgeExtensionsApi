@@ -25,7 +25,6 @@ public class Tests
     public static void GetSuggestionsTest()
     {
         Assert.That(Extensions.GetSuggestions("pdf").Result, Is.Not.Null);
-
         Assert.ThrowsAsync<ArgumentNullException>(() => Extensions.GetSuggestions(null));
         Assert.ThrowsAsync<ArgumentException>(() => Extensions.GetSuggestions(""));
     }
